@@ -2,6 +2,7 @@
 A clean, production-style TypeScript payment gateway module that mirrors CardConnect / Fiserv–like flows without exposing real credentials.
 
 ### Project Structure
+
 ```
 src/
 ├── auth/                 # Authentication module
@@ -35,6 +36,15 @@ jest.config.ts
 tsconfig.json
 package.json
 README.me
+```
+
+# API's
+```
+POST /payments/authorize
+
+POST /payments/capture
+
+POST /payments/refund
 ```
 # Folder Structure
 ```
@@ -97,11 +107,3 @@ Controller → Service → Gateway
 No gateway logic leaks into business code
 
 Swappable gateway implementations
-
-# API's
-
-POST /payments/authorize
-
-POST /payments/capture
-
-POST /payments/refund
