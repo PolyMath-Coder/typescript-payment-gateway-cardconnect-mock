@@ -39,8 +39,6 @@ tsconfig.json
 package.json
 README.md
 
-# 📘 README Outline (use this verbatim)
-
 ## Overview
   This project demonstrates a production-style TypeScript payment gateway integration using a CardConnect (Fiserv)-like interface. The goal is to showcase clean architecture, strong typing, testability, and API contract discipline.
 
