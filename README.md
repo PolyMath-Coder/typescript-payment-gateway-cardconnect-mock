@@ -29,12 +29,12 @@ src/
 ├── tests/
     payments/
       payment.service.spec.ts
+└── main.ts              # Application entry point
 openapi.yaml
 jest.config.ts
 tsconfig.json
 package.json
-README.md
-└── main.ts              # Application entry point
+README.me
 ```
 # Folder Structure
 ```
