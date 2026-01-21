@@ -8,12 +8,32 @@ src/
 ├── infrastructure/                 # Authentication module
   http/
     server.ts
-├── study-group/          # Study group management
-├── study-group-submission/ # Submission system
-├── member/              # Member management
-├── worker/              # Worker management
-├── prayergroup/         # Prayer group operations
+    server.ts
+      routes.ts
+    gateway/
+      cardconnect.mock.ts
+├──  modules/
+       payments/
+         payment.controller.ts
+         payment.service.ts
+         payment.gateway.ts
+         payment.types.ts
+         payment.errors.ts
+├──  shared/
+      logger.ts
+      http-response.ts
+
 ├── shared/              # Common utilities
+      logger.ts
+      http-response.ts
+├── tests/
+    payments/
+      payment.service.spec.ts
+openapi.yaml
+jest.config.ts
+tsconfig.json
+package.json
+README.md
 └── main.ts              # Application entry point
 ```
 # Folder Structure
