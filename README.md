@@ -1,7 +1,23 @@
 # Typescript-payment-gateway-cardconnect-mock
 A clean, production-style TypeScript payment gateway module that mirrors CardConnect / Fiserv–like flows without exposing real credentials.
 
+### Project Structure
+```
+src/
+├── auth/                 # Authentication module
+├── infrastructure/                 # Authentication module
+  http/
+    server.ts
+├── study-group/          # Study group management
+├── study-group-submission/ # Submission system
+├── member/              # Member management
+├── worker/              # Worker management
+├── prayergroup/         # Prayer group operations
+├── shared/              # Common utilities
+└── main.ts              # Application entry point
+```
 # Folder Structure
+```
 src/
   config/
     env.ts
